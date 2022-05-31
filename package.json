@@ -11,7 +11,7 @@
     "mongoose": "^5.7.12"
   },
   "scripts": {
-    "start": "npm start"
+    "start": "node app.js"
   },
   "author": "aiswarya",
   "license": "ISC"
