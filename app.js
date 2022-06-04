@@ -54,7 +54,7 @@ app.get('/',function(req,res){
 });
 
 
-let port = process.env.MONGODB_URI;
+let port = process.env.PORT;
 if (port == null || port == "") {
   port = 5000;
   console.log("Server Ready on 5000");
